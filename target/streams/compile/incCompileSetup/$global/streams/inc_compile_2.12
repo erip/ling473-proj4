@@ -1,0 +1,587 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/erip/Code/ling473-proj4/target/scala-2.12/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.12.2
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+15 items
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> /Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/DirectoryProcessor$$anon$1.class
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> /Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/DirectoryProcessor$DirectoryReader.class
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> /Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.class
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> /Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/FileProcessor.class
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> /Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/Match$.class
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> /Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/Match.class
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> /Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/ExtraCreditFormatter.class
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> /Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/Formatter.class
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> /Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/OutputFormatter.class
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> /Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/ProjectFourDriver$.class
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> /Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/ProjectFourDriver$FormatterTypes$.class
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> /Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/ProjectFourDriver$delayedInit$body.class
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> /Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.class
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> /Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/RadixTreeReader$.class
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> /Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/RadixTreeReader.class
+binary dependencies:
+18 items
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> /Users/erip/.ivy2/cache/com.rklaehn/radixtree_2.12/jars/radixtree_2.12-0.5.0.jar
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> /Users/erip/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> /Users/erip/.ivy2/cache/com.rklaehn/radixtree_2.12/jars/radixtree_2.12-0.5.0.jar
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> /Users/erip/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/bundles/scala-logging_2.12-3.7.2.jar
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> /Users/erip/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> /Users/erip/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> /Users/erip/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> /Users/erip/.ivy2/cache/com.rklaehn/radixtree_2.12/jars/radixtree_2.12-0.5.0.jar
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> /Users/erip/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/bundles/scala-logging_2.12-3.7.2.jar
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> /Users/erip/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> /Users/erip/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> /Users/erip/.ivy2/cache/com.rklaehn/radixtree_2.12/jars/radixtree_2.12-0.5.0.jar
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> /Users/erip/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+7 items
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> /Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> /Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> /Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> /Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> /Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> /Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> /Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+15 items
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> edu.washington.rippeth.ling473.proj4.DirectoryProcessor
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> edu.washington.rippeth.ling473.proj4.DirectoryProcessor$$anon$1
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> edu.washington.rippeth.ling473.proj4.DirectoryProcessor$DirectoryReader
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> edu.washington.rippeth.ling473.proj4.FileProcessor
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> edu.washington.rippeth.ling473.proj4.Match
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> edu.washington.rippeth.ling473.proj4.Match$
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> edu.washington.rippeth.ling473.proj4.ExtraCreditFormatter
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> edu.washington.rippeth.ling473.proj4.Formatter
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> edu.washington.rippeth.ling473.proj4.OutputFormatter
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> edu.washington.rippeth.ling473.proj4.ProjectFourDriver
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> edu.washington.rippeth.ling473.proj4.ProjectFourDriver$
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> edu.washington.rippeth.ling473.proj4.ProjectFourDriver$FormatterTypes$
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> edu.washington.rippeth.ling473.proj4.ProjectFourDriver$delayedInit$body
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> edu.washington.rippeth.ling473.proj4.RadixTreeReader
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> edu.washington.rippeth.ling473.proj4.RadixTreeReader$
+used names:
+420 items
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> $anon
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> &&
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> *
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> <init>
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> Any
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> AnyRef
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> Array
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> ArrayOps
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> Boolean
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> CanBuildFrom
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> CanCombineFrom
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> Coll
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> DirectoryProcessor
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> DirectoryReader
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> File
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> FileProcessor
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> ForkJoinPool
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> ForkJoinTaskSupport
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> Function1
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> GenTraversableOnce
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> Int
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> Match
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> Nil
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> Nothing
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> Object
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> ParSeq
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> Predef
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> RadixTree
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> RadixTreeReader
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> Runtime
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> S
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> Seq
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> String
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> T
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> TaskSupport
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> That
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> Thread
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> Unit
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> WrappedArray
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> activeCount
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> availableProcessors
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> canBuildFrom
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> collection
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> com
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> concurrent
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> dir
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> edu
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> exists
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> f
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> files
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> filter
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> findMatches
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> flatMap
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> forkjoin
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> fromFile
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> getPath
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> getRuntime
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> immutable
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> io
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> isDirectory
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> isFile
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> java
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> lang
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> ling473
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> listFiles
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> map
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> ofRef
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> package
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> par
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> parFiles
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> parallel
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> proj4
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> radixtree
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> refArrayOps
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> rippeth
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> rklaehn
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> scala
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> targetFile
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> tasksupport_=
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> trie
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> washington
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> wrapRefArray
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> &&
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> +
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> -
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> :+
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> <init>
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> <repeated...>
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> <repeated>
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> ==
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> A
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> AbstractFunction3
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Any
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> AnyRef
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> B
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Boolean
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> BufferedSource
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> CanBuildFrom
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Char
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Codec
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Coll
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> FileProcessor
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Function2
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Hash
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> IndexOutOfBoundsException
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Int
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Iterator
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Key
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> LazyLogging
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Logger
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Match
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> MatchError
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> None
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Nothing
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Object
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Option
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Predef
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Product
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> RadixTree
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> RichInt
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> ScalaRunTime
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Seq
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Serializable
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Some
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Source
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Statics
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> String
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> StringBuffer
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> StringContext
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> T
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> T0
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> T1
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> T2
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> T3
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> That
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Traversable
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Tuple2
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Tuple3
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> Unit
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> VV
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> _1
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> _2
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> _3
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> _root_
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> _toString
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> acc
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> anyHash
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> append
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> asInstanceOf
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> booleanHash
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> c
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> canBuildFrom
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> char
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> charAndIndex
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> collection
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> com
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> edu
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> empty
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> eq
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> fallbackSystemCodec
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> filename
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> finalizeHash
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> foldLeft
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> fromFile
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> getOrDefault
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> head
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> i
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> idx
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> info
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> intWrapper
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> io
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> isEmpty
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> isInfoEnabled
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> isInstanceOf
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> isTarget
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> java
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> keys
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> lang
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> length
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> ling473
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> logger
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> m
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> matches
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> mix
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> ne
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> offset
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> package
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> packed
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> prefix
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> processCurrent
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> proj4
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> radixtree
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> rippeth
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> rklaehn
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> runtime
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> s
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> sb
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> scala
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> scalalogging
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> size
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> stringIsKey
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> subtreeWithPrefix
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> subtrie
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> t
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> target
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> toHexString
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> toLowerCase
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> toString
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> trie
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> typedProductIterator
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> typesafe
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> unchecked
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> underlying
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> washington
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> withPrefix
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> zipWithIndex
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> ||
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> <init>
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> <repeated>
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> A
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> Any
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> AnyRef
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> B
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> Boolean
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> CanBuildFrom
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> Coll
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> ExtraCreditFormatter
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> Formatter
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> Function1
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> Iterable
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> K
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> Map
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> Match
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> MatchError
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> Nothing
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> Object
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> OutputFormatter
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> Predef
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> Seq
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> String
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> StringContext
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> StringOps
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> That
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> Tuple2
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> _1
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> _2
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> _root_
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> augmentString
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> byFileMatches
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> byTargetMatches
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> canBuildFrom
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> collection
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> edu
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> filename
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> formatEntry
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> groupBy
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> hexOffset
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> immutable
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> k
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> ling473
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> m
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> map
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> matches
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> mkString
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> ne
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> package
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> printHelper
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> proj4
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> rippeth
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> s
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> scala
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> stripMargin
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> target
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> toStringHelper
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> v
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> washington
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> -
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> ->
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> /
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> <init>
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> <repeated...>
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> <repeated>
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> A
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> Any
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> AnyRef
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> App
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> ArrowAssoc
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> B
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> Boolean
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> BufferedWriter
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> DirectoryProcessor
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> Enumeration
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> ExtraCredit
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> ExtraCreditFormatter
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> File
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> FileWriter
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> Formatter
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> FormatterTypes
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> Int
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> LazyLogging
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> List
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> Logger
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> Long
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> Map
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> Match
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> Nothing
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> Object
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> Output
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> OutputFormatter
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> ParSeq
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> Predef
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> ProjectFourDriver
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> RadixTree
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> RadixTreeReader
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> Seq
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> String
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> StringContext
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> System
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> T0
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> Tuple2
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> Unit
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> Value
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> Writer
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> apply
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> asInstanceOf
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> bw
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> close
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> com
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> createMap
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> currentTimeMillis
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> directoryName
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> directoryProcessor
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> edu
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> file
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> formatter
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> formatters
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> fromFile
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> info
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> io
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> isInfoEnabled
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> java
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> lang
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> ling473
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> logger
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> matches
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> package
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> println
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> processDirectory
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> proj4
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> rippeth
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> s
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> scala
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> scalalogging
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> t
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> targetName
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> toList
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> toString
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> trie
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> typesafe
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> underlying
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> washington
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> write
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> writeToFile
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> <init>
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> <repeated>
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> A
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> Any
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> AnyRef
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> B
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> Boolean
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> BufferedSource
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> CanBuildFrom
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> Codec
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> Coll
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> Function1
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> Hash
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> Iterator
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> K
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> Key
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> Nothing
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> Object
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> Predef
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> RadixTree
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> RadixTreeReader
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> Seq
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> Source
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> String
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> T1
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> T2
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> That
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> Tuple2
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> V
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> apply
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> booleanHash
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> canBuildFrom
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> collection
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> com
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> edu
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> fallbackSystemCodec
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> filename
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> fromFile
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> fromLines
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> getLines
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> io
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> line
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> lines
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> ling473
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> map
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> package
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> packed
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> pairs
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> proj4
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> radixtree
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> rippeth
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> rklaehn
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> scala
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> stringIsKey
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> toLowerCase
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> toSeq
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> washington
+product stamps:
+15 items
+/Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/DirectoryProcessor$$anon$1.class -> lastModified(1504049696000)
+/Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/DirectoryProcessor$DirectoryReader.class -> lastModified(1504049696000)
+/Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.class -> lastModified(1504049696000)
+/Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/ExtraCreditFormatter.class -> lastModified(1504049696000)
+/Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/FileProcessor.class -> lastModified(1504049696000)
+/Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/Formatter.class -> lastModified(1504049696000)
+/Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/Match$.class -> lastModified(1504049696000)
+/Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/Match.class -> lastModified(1504049696000)
+/Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/OutputFormatter.class -> lastModified(1504049696000)
+/Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/ProjectFourDriver$.class -> lastModified(1504049993000)
+/Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/ProjectFourDriver$FormatterTypes$.class -> lastModified(1504049993000)
+/Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/ProjectFourDriver$delayedInit$body.class -> lastModified(1504049993000)
+/Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.class -> lastModified(1504049993000)
+/Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/RadixTreeReader$.class -> lastModified(1504049696000)
+/Users/erip/Code/ling473-proj4/target/scala-2.12/classes/edu/washington/rippeth/ling473/proj4/RadixTreeReader.class -> lastModified(1504049696000)
+source stamps:
+5 items
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> hash(2b654c5b721ec9a8c7927fefb3bfe1f19c2e7a8c)
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> hash(cab53dc77f01a9f6ad5f14ee099f23a44cefd8ff)
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> hash(a44a6a84537643de6a884554f18cf7d431ad9238)
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> hash(bd8498671453865b6b169de0d4a5da017dcfd17b)
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> hash(cbdd5850cfc9cfe3c3273ffcecc989e63d908be7)
+binary stamps:
+5 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1500701265000)
+/Users/erip/.ivy2/cache/com.rklaehn/radixtree_2.12/jars/radixtree_2.12-0.5.0.jar -> lastModified(1486245795000)
+/Users/erip/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/bundles/scala-logging_2.12-3.7.2.jar -> lastModified(1500644316000)
+/Users/erip/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> lastModified(1492071552000)
+/Users/erip/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar -> lastModified(1489682192000)
+class names:
+5 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/erip/.ivy2/cache/com.rklaehn/radixtree_2.12/jars/radixtree_2.12-0.5.0.jar -> com.rklaehn.radixtree.RadixTree
+/Users/erip/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/bundles/scala-logging_2.12-3.7.2.jar -> com.typesafe.scalalogging.LazyLogging
+/Users/erip/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> scala.App
+/Users/erip/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar -> org.slf4j.Logger
+internal apis:
+5 items
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwINUkrAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwxyp2fXQABm5vdGlmeXNxAH4ADJOi6o90AAR3YWl0c3EAfgAMrolfvnQADSRhc0luc3RhbmNlT2ZzcQB+AAxPU67WdAAGZXF1YWxzc3EAfgAMBm1TKXQADGFzSW5zdGFuY2VPZnNxAH4ADAuRMmF0AAxzeW5jaHJvbml6ZWRzcQB+AAyvHt4ZdAANJGlzSW5zdGFuY2VPZnNxAH4ADLkoX4d0AAlub3RpZnlBbGxzcQB+AAx57rvOdAAMaXNJbnN0YW5jZU9mc3EAfgAM3oWli3QAEHByb2Nlc3NEaXJlY3RvcnlzcQB+AAz/iVYrdAAGPGluaXQ+c3EAfgAMOGsw+HQAAj09c3EAfgAMfBlhfXQABWNsb25lc3EAfgAM0RtwOHQACHRvU3RyaW5nc3EAfgAMuyAo4XQAAiE9c3EAfgAMD2IJU3QACGdldENsYXNzc3EAfgAMYUlZlHQAAm5lc3EAfgAMm//IkHQAEkRpcmVjdG9yeVByb2Nlc3NvcnNxAH4ADIl9pKd0AAJlcXNxAH4ADKl7kt50AAIjI3NxAH4ADAuITCh0AAhmaW5hbGl6ZXNxAH4ADFaFm7d0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ADdlZHUud2FzaGluZ3Rvbi5yaXBwZXRoLmxpbmc0NzMucHJvajQuRGlyZWN0b3J5UHJvY2Vzc29ydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFtzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQ0wACWluaGVyaXRlZHEAfgBDTAAHcGFyZW50c3EAfgBDeHEAfgBgc3EAfgBbdXEAfgA+AAAAAHNxAH4AW3VxAH4APgAAAABzcQB+AFt1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AF90AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AF9zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AHh0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHlzcQB+AGx0AANBbnlzcQB+AHBzcQB+AHN1cQB+AHYAAAACc3EAfgB4dAAFc2NhbGFxAH4Af3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAFc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQADmVkdS53YXNoaW5ndG9uc3EAfgCJdAAeZWR1Lndhc2hpbmd0b24ucmlwcGV0aC5saW5nNDczc3EAfgCJdAADZWR1c3EAfgCJdAAWZWR1Lndhc2hpbmd0b24ucmlwcGV0aHNxAH4AiXQAJGVkdS53YXNoaW5ndG9uLnJpcHBldGgubGluZzQ3My5wcm9qNHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXjBY5j11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA4L1VzZXJzL2VyaXAvQ29kZS9saW5nNDczLXByb2o0L3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQrZUxbch7JqMeSf++zv+HxnC56jA==
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwGfpLdgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAmc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw/mshp3QABm5vdGlmeXNxAH4ADMvDrZl0AAR3YWl0c3EAfgAMhYoACHQADmNvcHkkZGVmYXVsdCQyc3EAfgAMdnGe43QADSRhc0luc3RhbmNlT2ZzcQB+AAybD+0ZdAAGbG9nZ2Vyc3EAfgAMAHsRlnQADHByb2R1Y3RBcml0eXNxAH4ADD9kN8d0AAZlcXVhbHNzcQB+AAzVo164dAAMYXNJbnN0YW5jZU9mc3EAfgAM0r3d4nQADHN5bmNocm9uaXplZHNxAH4ADJKSUnV0AA0kaXNJbnN0YW5jZU9mc3EAfgAMdm8nUHQACGNhbkVxdWFsc3EAfgAMIpouKXQADXByb2R1Y3RQcmVmaXhzcQB+AAyf2Y46dAAJbm90aWZ5QWxsc3EAfgAMQaFLnHQADGlzSW5zdGFuY2VPZnNxAH4ADDPY10l0AAY8aW5pdD5zcQB+AAyr0pxwdAAGb2Zmc2V0c3EAfgAMIL7fzHQAAj09c3EAfgAMGT4r3HQABWNsb25lc3EAfgAMuVq8B3QACGZpbGVuYW1lc3EAfgAMT1zeI3QABiRpbml0JHNxAH4ADOanWi90AA1GaWxlUHJvY2Vzc29yc3EAfgAMML7o5HQADmNvcHkkZGVmYXVsdCQzc3EAfgAMJXQwznQABGNvcHlzcQB+AAzLmmM9dAAIdG9TdHJpbmdzcQB+AAwiB7ahdAAGdGFyZ2V0c3EAfgAMnDHMdHQAAiE9c3EAfgAMLIHn9nQACGdldENsYXNzc3EAfgAM+o1cGXQADmNvcHkkZGVmYXVsdCQxc3EAfgAMzOxwg3QABU1hdGNoc3EAfgAM54JGZnQAAm5lc3EAfgAM6S/cAnQAAmVxc3EAfgAMq8xhKHQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADMFITIN0AAIjI3NxAH4ADGI4dAt0AAhmaW5hbGl6ZXNxAH4ADOcGCmN0AA5wcm9kdWN0RWxlbWVudHNxAH4ADN3C6MF0AAhoYXNoQ29kZXNxAH4ADDxhIjd0AAloZXhPZmZzZXRzcQB+AAx8ooTadAALZmluZE1hdGNoZXNzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBjeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAqZWR1Lndhc2hpbmd0b24ucmlwcGV0aC5saW5nNDczLnByb2o0Lk1hdGNodXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AHtzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AY0wACWluaGVyaXRlZHEAfgBjTAAHcGFyZW50c3EAfgBjeHEAfgCAc3EAfgB7dXEAfgBeAAAAAHNxAH4Ae3VxAH4AXgAAAABzcQB+AHt1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AH90AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AH9zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJlzcQB+AIxxAH4Aj3NxAH4AkHNxAH4Ak3VxAH4AlgAAAANzcQB+AJh0AARqYXZhc3EAfgCYdAACaW9xAH4AnXNxAH4AjHQAB1Byb2R1Y3RxAH4AknNxAH4AjHQABkVxdWFsc3EAfgCSc3EAfgCMdAAGT2JqZWN0c3EAfgCQc3EAfgCTdXEAfgCWAAAAA3NxAH4AmHEAfgCjc3EAfgCYdAAEbGFuZ3EAfgCdc3EAfgCMdAADQW55cQB+AJJzcQB+AGBxAH4AbXVxAH4AbgAAAABzcQB+AHAAdAAyZWR1Lndhc2hpbmd0b24ucmlwcGV0aC5saW5nNDczLnByb2o0LkZpbGVQcm9jZXNzb3J1cQB+AHMAAAAAcQB+AHd1cQB+AHkAAAAAc3EAfgB7cQB+AIFzcQB+AHtzcQB+AINzcQB+AHt1cQB+AF4AAAAAc3EAfgB7dXEAfgBeAAAAAHNxAH4Ae3VxAH4AigAAAANzcQB+AIx0AAtMYXp5TG9nZ2luZ3NxAH4AkHNxAH4Ak3VxAH4AlgAAAARzcQB+AJh0AANjb21zcQB+AJh0AAh0eXBlc2FmZXNxAH4AmHQADHNjYWxhbG9nZ2luZ3EAfgCdc3EAfgCMcQB+AKtzcQB+AJBzcQB+AJN1cQB+AJYAAAADc3EAfgCYcQB+AKNzcQB+AJhxAH4AsXEAfgCdc3EAfgCMcQB+ALNzcQB+AJBzcQB+AJN1cQB+AJYAAAACc3EAfgCYcQB+AJtxAH4AnXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAFc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQADmVkdS53YXNoaW5ndG9uc3EAfgDbdAAeZWR1Lndhc2hpbmd0b24ucmlwcGV0aC5saW5nNDczc3EAfgDbdAADZWR1c3EAfgDbdAAWZWR1Lndhc2hpbmd0b24ucmlwcGV0aHNxAH4A23QAJGVkdS53YXNoaW5ndG9uLnJpcHBldGgubGluZzQ3My5wcm9qNHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXjBY5j11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA4L1VzZXJzL2VyaXAvQ29kZS9saW5nNDczLXByb2o0L3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTKtT3HfwGp9q1fFO4JnyOkTO/Y/w==
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwqnkLxAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAbc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwqglu4XQABm5vdGlmeXNxAH4ADGXYLlZ0AAlGb3JtYXR0ZXJzcQB+AAwQ/yPtdAAPT3V0cHV0Rm9ybWF0dGVyc3EAfgAMyUk6wnQABHdhaXRzcQB+AAyyRAgOdAANJGFzSW5zdGFuY2VPZnNxAH4ADKxIwcx0AAZlcXVhbHNzcQB+AAwVrMJvdAAMYXNJbnN0YW5jZU9mc3EAfgAMbxGAcXQADHN5bmNocm9uaXplZHNxAH4ADFuDotl0AA0kaXNJbnN0YW5jZU9mc3EAfgAMpbRGiHQACW5vdGlmeUFsbHNxAH4ADK/JXYV0AAxpc0luc3RhbmNlT2ZzcQB+AAwKtJ0sdAAGPGluaXQ+c3EAfgAMUGQO7HQAFEV4dHJhQ3JlZGl0Rm9ybWF0dGVyc3EAfgAMugI7c3QAAj09c3EAfgAMxTmS1HQABWNsb25lc3EAfgAMbeouuXQACHRvU3RyaW5nc3EAfgAMV7mYsnQAC2Zvcm1hdEVudHJ5c3EAfgAMavwGeXQAAiE9c3EAfgAMbM3cd3QACGdldENsYXNzc3EAfgAMxWIqo3QADnRvU3RyaW5nSGVscGVyc3EAfgAMdEkiBXQAC3ByaW50SGVscGVyc3EAfgAMFfjSynQAB21hdGNoZXNzcQB+AAy7rPiUdAACbmVzcQB+AAyOX9tRdAACZXFzcQB+AAyOFCKgdAACIyNzcQB+AAz8nFLfdAAIZmluYWxpemVzcQB+AAzOL/wZdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAADc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBNeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHABdAAuZWR1Lndhc2hpbmd0b24ucmlwcGV0aC5saW5nNDczLnByb2o0LkZvcm1hdHRlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBlc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AE1MAAlpbmhlcml0ZWRxAH4ATUwAB3BhcmVudHNxAH4ATXhxAH4AanNxAH4AZXVxAH4ASAAAAABzcQB+AGV1cQB+AEgAAAAAc3EAfgBldXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBpdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBpc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCCdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCDc3EAfgB2dAADQW55c3EAfgB6c3EAfgB9dXEAfgCAAAAAAnNxAH4AgnQABXNjYWxhcQB+AIlzcQB+AEpxAH4AV3VxAH4AWAAAAABzcQB+AFoAdAA0ZWR1Lndhc2hpbmd0b24ucmlwcGV0aC5saW5nNDczLnByb2o0Lk91dHB1dEZvcm1hdHRlcnVxAH4AXQAAAABxAH4AYXVxAH4AYwAAAABzcQB+AGVxAH4Aa3NxAH4AZXNxAH4AbXNxAH4AZXVxAH4ASAAAAABzcQB+AGV1cQB+AEgAAAAAc3EAfgBldXEAfgB0AAAAA3NxAH4AdnQACUZvcm1hdHRlcnNxAH4AenNxAH4AfXVxAH4AgAAAAAZzcQB+AIJ0AANlZHVzcQB+AIJ0AAp3YXNoaW5ndG9uc3EAfgCCdAAHcmlwcGV0aHNxAH4AgnQAB2xpbmc0NzNzcQB+AIJ0AAVwcm9qNHEAfgCJc3EAfgB2cQB+AHlzcQB+AHpzcQB+AH11cQB+AIAAAAADc3EAfgCCcQB+AIVzcQB+AIJxAH4Ah3EAfgCJc3EAfgB2cQB+AItzcQB+AHpzcQB+AH11cQB+AIAAAAACc3EAfgCCcQB+AJBxAH4AiXNxAH4ASnEAfgBXdXEAfgBYAAAAAHNxAH4AWgB0ADllZHUud2FzaGluZ3Rvbi5yaXBwZXRoLmxpbmc0NzMucHJvajQuRXh0cmFDcmVkaXRGb3JtYXR0ZXJ1cQB+AF0AAAAAcQB+AGF1cQB+AGMAAAAAc3EAfgBlcQB+AGtzcQB+AGVzcQB+AG1zcQB+AGV1cQB+AEgAAAAAc3EAfgBldXEAfgBIAAAAAHNxAH4AZXVxAH4AdAAAAANzcQB+AHZ0AAlGb3JtYXR0ZXJzcQB+AHpzcQB+AH11cQB+AIAAAAAGc3EAfgCCdAADZWR1c3EAfgCCdAAKd2FzaGluZ3RvbnNxAH4AgnQAB3JpcHBldGhzcQB+AIJ0AAdsaW5nNDczc3EAfgCCdAAFcHJvajRxAH4AiXNxAH4AdnEAfgB5c3EAfgB6c3EAfgB9dXEAfgCAAAAAA3NxAH4AgnEAfgCFc3EAfgCCcQB+AIdxAH4AiXNxAH4AdnEAfgCLc3EAfgB6c3EAfgB9dXEAfgCAAAAAAnNxAH4AgnEAfgCQcQB+AIl1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AA5lZHUud2FzaGluZ3RvbnNxAH4A5XQAHmVkdS53YXNoaW5ndG9uLnJpcHBldGgubGluZzQ3M3NxAH4A5XQAA2VkdXNxAH4A5XQAFmVkdS53YXNoaW5ndG9uLnJpcHBldGhzcQB+AOV0ACRlZHUud2FzaGluZ3Rvbi5yaXBwZXRoLmxpbmc0NzMucHJvajRzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAV4wWOY9dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAOC9Vc2Vycy9lcmlwL0NvZGUvbGluZzQ3My1wcm9qNC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUpEpqhFN2Q95qiEVU8Yz31DGtkjg=
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwZ5eB5wAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAANzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHBzR+g0dAAIb3JkZXJpbmdzcQB+AAtZMtnsdAAMY2FuQnVpbGRGcm9tc3EAfgALNnc07nQADW1rT3JkZXJpbmdPcHN1cQB+AAkAAADLc3EAfgALvoZfLXQADGl0ZXJhdG9yRnJvbXNxAH4ACxLn+Ot0AAp0b0l0ZXJhYmxlc3EAfgALJSBN1HQACndpdGhGaWx0ZXJzcQB+AAtvRSKMdAANdG9UcmF2ZXJzYWJsZXNxAH4ACwP0Epx0AA9zaXplSGludElmQ2hlYXBzcQB+AAsx839OdAAGbm90aWZ5c3EAfgALay0GIXQABGZpbmRzcQB+AAsuQIkVdAAEc3BhbnNxAH4AC54iYoJ0AAdmbGF0dGVuc3EAfgALW9zg/nQACHRvQnVmZmVyc3EAfgALnEIvWHQACmZvcm1hdHRlcnNzcQB+AAsWZRkRdAAFY291bnRzcQB+AAuW4XL0dAAGbmV4dElkc3EAfgALsdViH3QADHJlZHVjZU9wdGlvbnNxAH4AC7jW+Bx0ABNzbGljZVdpdGhLbm93bkRlbHRhc3EAfgALHtz5onQABHdhaXRzcQB+AAs9SRKSdAACPD1zcQB+AAtvCS26dAAJZm9sZFJpZ2h0c3EAfgALnC7Xv3QACXRha2VXaGlsZXNxAH4AC9YrnI10AAxzdHJpbmdQcmVmaXhzcQB+AAuggpWMdAANJGFzSW5zdGFuY2VPZnNxAH4ACz20n6l0AAVlbXB0eXNxAH4AC/h48vF0AAdzcGxpdEF0c3EAfgALFyJy2HQAEmRpcmVjdG9yeVByb2Nlc3NvcnNxAH4AC9AXXdJ0AAVtaW5CeXNxAH4AC3MauWN0AARzaXplc3EAfgALtTvUZXQABmxvZ2dlcnNxAH4AC7ZK12N0AAV1bmlvbnNxAH4AC1DISs50AAlpbnRlcnNlY3RzcQB+AAvc8o2+dAAFaW5pdHNzcQB+AAsqSvVMdAADemlwc3EAfgALWmS253QAB2NvbXBvc2VzcQB+AAuT4gTUdAAFdG9TZXRzcQB+AAvcKzvTdAAIc3Vic2V0T2ZzcQB+AAu30vRDdAACOlxzcQB+AAvu+oY1dAADbWFwc3EAfgALFvMMinQACXRha2VSaWdodHNxAH4AC79eDYl0AAlkcm9wV2hpbGVzcQB+AAs5Dy62dAAFdG9NYXBzcQB+AAtstW3odAAJZmlsdGVyTm90c3EAfgALqcxw6HQABmVxdWFsc3NxAH4ACyKrhYd0AANwYXJzcQB+AAtbV7T5dAAGdW56aXAzc3EAfgALtkt3OXQABHJlcHJzcQB+AAtgeXyYdAALRXh0cmFDcmVkaXRzcQB+AAvbUFEwdAAGdG9MaXN0c3EAfgALSOCSOHQAEmlzVHJhdmVyc2FibGVBZ2FpbnNxAH4AC8D0FLx0AAF0c3EAfgAL5Hvyq3QABGhlYWRzcQB+AAtxs8afdAAMYXNJbnN0YW5jZU9mc3EAfgALmBoVS3QADHNhbWVFbGVtZW50c3NxAH4ACyFu4Cl0ABB0aGVuQ29tcGFyaW5nSW50c3EAfgALOqQ/knQADmV4ZWN1dGlvblN0YXJ0c3EAfgALhc8j5XQAATxzcQB+AAsi0HJydAAFdW56aXBzcQB+AAuy89iTdAAQcmVkdWNlTGVmdE9wdGlvbnNxAH4ACzj2rQ50AAEmc3EAfgALbwbZ2nQADHN5bmNocm9uaXplZHNxAH4AC8SMsMJ0AAdzbGlkaW5nc3EAfgAL2Qou2HQACXRvQml0TWFza3NxAH4AC/3j22t0AARTZWxmc3EAfgALkaSOWHQACXBhcnRpdGlvbnNxAH4AC5MqKbd0AAlhZ2dyZWdhdGVzcQB+AAskvVP7dAARUHJvamVjdEZvdXJEcml2ZXJzcQB+AAti6NamdAANJGlzSW5zdGFuY2VPZnNxAH4AC1RSOBl0AAZmb3JhbGxzcQB+AAs90hTSdAAKbmV3QnVpbGRlcnNxAH4AC/wqdxt0AAdhbmRUaGVuc3EAfgALBqk+cHQACG1rU3RyaW5nc3EAfgALJsvn8HQAAj49c3EAfgAL/JoLEnQAA21pbnNxAH4AC5IHQnx0AAlzY2FuUmlnaHRzcQB+AAucB+UjdAAGaGFzQWxsc3EAfgAL8EZBMXQABGZvbGRzcQB+AAs9YpRcdAABfHNxAH4ACxL7mqV0AARzY2Fuc3EAfgALRQab9nQACG5vbkVtcHR5c3EAfgAL8Q+lR3QACGNhbkVxdWFsc3EAfgALfISH83QABHRhaWxzcQB+AAul7qtPdAAEbWFpbnNxAH4ACzTkm1l0AApsYXN0T3B0aW9uc3EAfgALs0FdrnQAA1ZhbHNxAH4ACwxM7JJ0AAlkcm9wUmlnaHRzcQB+AAvTxZj9dAAIaXRlcmF0b3JzcQB+AAvSAMpYdAAEbGFzdHNxAH4AC8P5N510AA1WYWx1ZU9yZGVyaW5nc3EAfgALCniRZXQABVZhbHVlc3EAfgALznbBenQAC2Zyb21CaXRNYXNrc3EAfgALnFkDHnQACW91dGVyRW51bXNxAH4AC3jZjup0AAV1bnRpbHNxAH4AC0NEBI10AAlub3RpZnlBbGxzcQB+AAuTI0PfdAALcmVhZFJlc29sdmVzcQB+AAtzZOHRdAACLzpzcQB+AAscCNt2dAAKdG9JdGVyYXRvcnNxAH4ACzvrGN10AAlhZGRTdHJpbmdzcQB+AAtoP5rudAACdG9zcQB+AAt+B3MGdAAGa2V5U2V0c3EAfgALX3cFQXQADGNvbGxlY3RGaXJzdHNxAH4AC8bHb8R0AAljb21wYXJlVG9zcQB+AAtFFGK7dAAQa2V5c0l0ZXJhdG9yRnJvbXNxAH4ACzhUhEd0AARkcm9wc3EAfgALe8uULHQAAS1zcQB+AAv3NBVGdAAMaXNJbnN0YW5jZU9mc3EAfgALNiLJc3QAB3JldmVyc2VzcQB+AAuTql78dAAFbWF4SWRzcQB+AAurEJGVdAAGZmlsdGVyc3EAfgAL51azSHQAAysrOnNxAH4AC4pmyT10AAhuZXh0TmFtZXNxAH4AC3Ul/+p0AAY8aW5pdD5zcQB+AAvr15Z7dAAIdG9TdHJlYW1zcQB+AAv5YbxKdAACaWRzcQB+AAv5Yv/fdAAJY29tcGFuaW9uc3EAfgALXJmg9nQAA21heHNxAH4AC52CsD50AAJvbnNxAH4AC5mAAix0AApmaWx0ZXJJbXBsc3EAfgALU0CKQHQABXRhaWxzc3EAfgALiBpHdnQACFZhbHVlU2V0c3EAfgALt/fmv3QABWFwcGx5c3EAfgALgBEbNXQACHdpdGhOYW1lc3EAfgALu0f78XQAAisrc3EAfgALCzD8PnQAB2dyb3VwZWRzcQB+AAsX+bTPdAAEZGlmZnNxAH4AC1ppfv10AAdmbGF0TWFwc3EAfgALVEVYWHQABHRha2VzcQB+AAskxc+adAALcGFyQ29tYmluZXJzcQB+AAt+cMXbdAALcmVkdWNlUmlnaHRzcQB+AAsH4IkBdAAHZ3JvdXBCeXNxAH4AC3vdvlx0AAI9PXNxAH4AC+VkplJ0AAZPdXRwdXRzcQB+AAsRNnzUdAAFbWF4QnlzcQB+AAseOpWkdAAFcmFuZ2VzcQB+AAs8NE32dAANdGhlbkNvbXBhcmluZ3NxAH4AC8THb5N0ABNzbGljZVdpdGhLbm93bkJvdW5kc3EAfgALGQctOHQABWNsb25lc3EAfgALVEdSbnQABXNsaWNlc3EAfgALqazvgXQAB2ZvcmVhY2hzcQB+AAsXDgwNdAAHbGFzdEtleXNxAH4ACzBINEd0AAImfnNxAH4AC/CnPmp0AARsdGVxc3EAfgALt++91XQACnRhcmdldE5hbWVzcQB+AAt2QI+hdAAGZXhpc3Rzc3EAfgALJuF1snQAEXJlZHVjZVJpZ2h0T3B0aW9uc3EAfgALdGFQjnQACHRvVmVjdG9yc3EAfgALFEoZvXQADHRvSW5kZXhlZFNlcXNxAH4AC1g4eFp0AAp0cnlDb21wYXJlc3EAfgALGWzd6XQADGNvcHlUb0J1ZmZlcnNxAH4ACw9mAWN0AAd0b0FycmF5c3EAfgALTODFc3QABnJlZHVjZXNxAH4AC/phQ410AAdzdWJzZXRzc3EAfgALHcNwFHQABGZyb21zcQB+AAst1nt3dAAGJGluaXQkc3EAfgALHWCtWnQABXRvU2Vxc3EAfgALes1G0nQADHppcFdpdGhJbmRleHNxAH4AC0MFb0J0ABN0aGVuQ29tcGFyaW5nRG91Ymxlc3EAfgAL7zK3U3QACGZpcnN0S2V5c3EAfgALjk2Sc3QABHRyaWVzcQB+AAvwJe5xdAAGdmFsdWVzc3EAfgALiK3sUnQACHRvU3RyaW5nc3EAfgALVLzfCnQADmdlbmVyaWNCdWlsZGVyc3EAfgALEkfqu3QAC2NvcHlUb0FycmF5c3EAfgAL/BDPz3QABGFyZ3NzcQB+AAucLdjpdAADc2Vxc3EAfgALLEkZ6HQAAStzcQB+AAuzyKDZdAACIT1zcQB+AAtpO4nrdAAJdHJhbnNwb3Nlc3EAfgALocF41HQADWRpcmVjdG9yeU5hbWVzcQB+AAuQwXPRdAAFZXF1aXZzcQB+AAs2QEYhdAAHY29sbGVjdHNxAH4AC52Kq190AApoZWFkT3B0aW9uc3EAfgALkukZ23QACGdldENsYXNzc3EAfgAL7qqeDHQACldpdGhGaWx0ZXJzcQB+AAsYLUJidAAPaGFzRGVmaW5pdGVTaXplc3EAfgALbWaPIHQACWNyZWF0ZU1hcHNxAH4AC6zAzUh0AAdtYXRjaGVzc3EAfgALWbTjrnQAAi0tc3EAfgAL17ccSHQACGZvbGRMZWZ0c3EAfgALkWFEZHQACGNvbnRhaW5zc3EAfgALsvs9onQAEXRoZW5Db21wYXJpbmdMb25nc3EAfgALwlIm1nQADHRvQ29sbGVjdGlvbnNxAH4AC4QYp6R0AAdpc0VtcHR5c3EAfgALQijEPHQAAm5lc3EAfgALx1fma3QAAmx0c3EAfgALGM/IOnQABGluaXRzcQB+AAtWOgKTdAACZ3RzcQB+AAt9xltedAAIcmV2ZXJzZWRzcQB+AAu/8gCFdAADT3Bzc3EAfgALEFRYPHQACnJlZHVjZUxlZnRzcQB+AAvia4iUdAACZXFzcQB+AAvqfQJOdAAHY29tcGFyZXNxAH4AC+w0n4t0AANzdW1zcQB+AAtQc1QFdAAORm9ybWF0dGVyVHlwZXNzcQB+AAvGR8rIdAAOdGhpc0NvbGxlY3Rpb25zcQB+AAtuz+/pdAABPnNxAH4ACx6JzqN0AAtkZWxheWVkSW5pdHNxAH4ACxJ8K7t0AAIjI3NxAH4AC28UBqF0AAhzY2FuTGVmdHNxAH4AC9rJ+GV0AAhmaW5hbGl6ZXNxAH4AC18jF7l0AAhoYXNoQ29kZXNxAH4AC/Oq/NF0AAlyYW5nZUltcGxzcQB+AAusJjKfdAAGemlwQWxsc3EAfgALaQM2GnQAB3Byb2R1Y3RzcQB+AAt/xD2ZdAAEdmlld3NxAH4AC/UdxRZ0AARndGVxc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Bs3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQANmVkdS53YXNoaW5ndG9uLnJpcHBldGgubGluZzQ3My5wcm9qNC5Qcm9qZWN0Rm91ckRyaXZlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAJ0ABpzY2FsYS5kZXByZWNhdGVkT3ZlcnJpZGluZ3QAEHNjYWxhLmRlcHJlY2F0ZWRzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4BzXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgGzTAAJaW5oZXJpdGVkcQB+AbNMAAdwYXJlbnRzcQB+AbN4cQB+AdJzcQB+Ac11cQB+Aa4AAAAAc3EAfgHNdXEAfgGuAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgG0cQB+Ab11cQB+Ab4AAAABc3IAFHhzYnRpLmFwaS5Bbm5vdGF0aW9u3g6BovZcCrICAAJbAAlhcmd1bWVudHN0AB9bTHhzYnRpL2FwaS9Bbm5vdGF0aW9uQXJndW1lbnQ7TAAEYmFzZXEAfgHceHB1cgAfW0x4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW50O1Gdpo84JQ94AgAAeHAAAAABc3IAHHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnTWRbHYAxsXfAIAAkwABG5hbWVxAH4ADEwABXZhbHVlcQB+AAx4cHQAAHQAKigibWFpbiBzaG91bGQgbm90IGJlIG92ZXJyaWRkZW4iLCIyLjExLjAiKXNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AdF0ABRkZXByZWNhdGVkT3ZlcnJpZGluZ3NyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4B0XNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4B9nNxAH4BwABxAH4As3VxAH4BwwAAAABzcQB+Ael0AARVbml0cQB+Ae91cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADEwAA3RwZXEAfgHceHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgHGdAAFUGxhaW5xAH4BVXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4B6lsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4B0XNxAH4B6XQABUFycmF5cQB+Ae91cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4B6XQABlN0cmluZ3NxAH4B7XNxAH4B8HVxAH4B8wAAAANzcQB+AfV0AARqYXZhc3EAfgH1dAAEbGFuZ3EAfgH6c3EAfgHNdXEAfgIRAAAABXNxAH4B6XQAC0xhenlMb2dnaW5nc3EAfgHtc3EAfgHwdXEAfgHzAAAABHNxAH4B9XQAA2NvbXNxAH4B9XQACHR5cGVzYWZlc3EAfgH1dAAMc2NhbGFsb2dnaW5ncQB+AfpzcQB+Ael0AANBcHBxAH4B73NxAH4B6XQAC0RlbGF5ZWRJbml0cQB+Ae9zcQB+Ael0AAZPYmplY3RxAH4CFXNxAH4B6XQAA0FueXEAfgHvdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAVzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAAOZWR1Lndhc2hpbmd0b25zcQB+AjN0AB5lZHUud2FzaGluZ3Rvbi5yaXBwZXRoLmxpbmc0NzNzcQB+AjN0AANlZHVzcQB+AjN0ABZlZHUud2FzaGluZ3Rvbi5yaXBwZXRoc3EAfgIzdAAkZWR1Lndhc2hpbmd0b24ucmlwcGV0aC5saW5nNDczLnByb2o0c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFeMF17t3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0ADgvVXNlcnMvZXJpcC9Db2RlL2xpbmc0NzMtcHJvajQvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFL2EmGcUU4Zbaxad4NSl2gF9z9F7
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwCefM/AAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwGdF1cnQABm5vdGlmeXNxAH4ADLJ0LSh0AAR3YWl0c3EAfgAM7CqPY3QADSRhc0luc3RhbmNlT2ZzcQB+AAzP8RXLdAAJZnJvbUxpbmVzc3EAfgAMCoy2p3QABmVxdWFsc3NxAH4ADJ95E010AAxhc0luc3RhbmNlT2ZzcQB+AAwJsbU0dAAMc3luY2hyb25pemVkc3EAfgAMqNU1QnQADSRpc0luc3RhbmNlT2ZzcQB+AAy/4O0xdAAJbm90aWZ5QWxsc3EAfgAMKP1Vc3QADGlzSW5zdGFuY2VPZnNxAH4ADOq2jGB0AA9SYWRpeFRyZWVSZWFkZXJzcQB+AAwpCWxddAACPT1zcQB+AAxxYRqLdAAFY2xvbmVzcQB+AAxB5X0GdAAIdG9TdHJpbmdzcQB+AAy3dU12dAACIT1zcQB+AAzdd3q7dAAIZ2V0Q2xhc3NzcQB+AAyM4u+MdAACbmVzcQB+AAzL4njvdAACZXFzcQB+AAzU7HpzdAACIyNzcQB+AAyxyN4wdAAIZmluYWxpemVzcQB+AAx+0YHodAAIZnJvbUZpbGVzcQB+AAxBcBycdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBDeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAA0ZWR1Lndhc2hpbmd0b24ucmlwcGV0aC5saW5nNDczLnByb2o0LlJhZGl4VHJlZVJlYWRlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AW3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBDTAAJaW5oZXJpdGVkcQB+AENMAAdwYXJlbnRzcQB+AEN4cQB+AGBzcQB+AFt1cQB+AD4AAAAAc3EAfgBbdXEAfgA+AAAAAHNxAH4AW3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AX3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AX3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AeHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AeXNxAH4AbHQAA0FueXNxAH4AcHNxAH4Ac3VxAH4AdgAAAAJzcQB+AHh0AAVzY2FsYXEAfgB/dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAVzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAOZWR1Lndhc2hpbmd0b25zcQB+AIl0AB5lZHUud2FzaGluZ3Rvbi5yaXBwZXRoLmxpbmc0NzNzcQB+AIl0AANlZHVzcQB+AIl0ABZlZHUud2FzaGluZ3Rvbi5yaXBwZXRoc3EAfgCJdAAkZWR1Lndhc2hpbmd0b24ucmlwcGV0aC5saW5nNDczLnByb2o0c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFeMFjmPXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADgvVXNlcnMvZXJpcC9Db2RlL2xpbmc0NzMtcHJvajQvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFMvdWFDPyc/jwyc//OzJieY9kIvn
+external apis:
+0 items
+source infos:
+5 items
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/DirectoryProcessor.scala -> 
+AAAAAAAAAAA=
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/FileProcessor.scala -> 
+AAAAAAAAAAA=
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/Formatter.scala -> 
+AAAAAAAAAAA=
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/ProjectFourDriver.scala -> 
+AAAAAAAAAAA=
+/Users/erip/Code/ling473-proj4/src/main/scala/edu/washington/rippeth/ling473/proj4/RadixTreeReader.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXjBY5j11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9lcmlwL0NvZGUvbGluZzQ3My1wcm9qNC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXjBde7d1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9lcmlwL0NvZGUvbGluZzQ3My1wcm9qNC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
