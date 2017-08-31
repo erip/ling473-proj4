@@ -6,7 +6,7 @@ Given a list of target nucleotide sequences and an entire genome split into mult
 
 ## Results
 
-Matches were found.
+678 matches were found.
 
 ## Approach
 
