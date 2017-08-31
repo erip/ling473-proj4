@@ -21,12 +21,11 @@ object ProjectFourDriver extends App with LazyLogging {
     bw.write(formatter.toString)
     bw.close()
   }
+  val directoryName = "/opt/dropbox/17-18/473/project4"
+  val targetName = s"$directoryName/targets"
+  val trie = TrieReader.fromFile(targetName)
 
-  val directoryName = "/Users/erip/Code/ling473-proj4"
-  val targetName = s"$directoryName/tmp/targets"
-  val trie = RadixTreeReader.fromFile(targetName)
-
-  val directoryProcessor = new DirectoryProcessor(s"$directoryName/tmp/hg19-GRCh37", targetName)
+  val directoryProcessor = new DirectoryProcessor(s"$directoryName/hg19-GRCh37", targetName)
 
   val t = System.currentTimeMillis()
   val matches = directoryProcessor.processDirectory.toList

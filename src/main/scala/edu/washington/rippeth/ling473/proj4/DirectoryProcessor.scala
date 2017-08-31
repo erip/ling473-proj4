@@ -2,8 +2,6 @@ package edu.washington.rippeth.ling473.proj4
 
 import java.io.File
 
-import com.rklaehn.radixtree.RadixTree
-
 import scala.collection.parallel.ForkJoinTaskSupport
 
 class DirectoryProcessor(dir: String, targetFile: String) {
@@ -17,13 +15,16 @@ class DirectoryProcessor(dir: String, targetFile: String) {
 
   private val files = new DirectoryReader(dir).files
 
-  private val trie: RadixTree[String, Boolean] = RadixTreeReader.fromFile(targetFile)
+  private val trie: Trie = TrieReader.fromFile(targetFile)
 
   def processDirectory: collection.parallel.ParSeq[Match] = {
     val parFiles = files.par
     parFiles.tasksupport = new ForkJoinTaskSupport(
       new scala.concurrent.forkjoin.ForkJoinPool{
-        Runtime.getRuntime.availableProcessors * Thread.activeCount()
+        // Create a thread for each core -- this is the
+        // most efficiency we can draw before saturating
+        // the cache
+        Runtime.getRuntime.availableProcessors
       })
     parFiles.map(f => new FileProcessor(f.getPath, trie)).flatMap(_.findMatches)
   }

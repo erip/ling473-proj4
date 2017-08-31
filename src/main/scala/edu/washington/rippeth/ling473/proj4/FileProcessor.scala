@@ -1,64 +1,72 @@
 package edu.washington.rippeth.ling473.proj4
 
-import com.rklaehn.radixtree.RadixTree
 import com.typesafe.scalalogging.LazyLogging
 
+import scala.collection.mutable.ListBuffer
 import scala.io.Source
+import scala.util.Try
 
 case class Match(filename: String, offset: Int, target: String) {
   def hexOffset: String = offset.toHexString
 }
 
-class FileProcessor(private val filename: String, private val trie: RadixTree[String, Boolean]) extends LazyLogging {
+class FileProcessor(private val filename: String, private val trieRoot: Trie) extends LazyLogging {
 
-  private val charAndIndex: Iterator[(Char, Int)] = Source.fromFile(filename).zipWithIndex
+  private val charAndIndex: Iterator[(Char, Int)] = 
+    Source.fromFile(filename)
+      .zipWithIndex
+      .map { case (c, i) => (c.toLower, i)}
+       // Remove all non ACTG characters
+      .filter { case (c, i) => Trie.Σ.contains(c) }
 
-  private def isTarget(t: RadixTree[String, Boolean], prefix: Char): Boolean = {
-    t.getOrDefault(prefix.toString.toLowerCase, false)
+  private def isTarget(t: Trie, prefix: Char): Boolean = {
+    t.contains(prefix) && t.withPrefix(prefix).isTarget
   }
 
-  private def isEmpty(t: RadixTree[String, Boolean]): Boolean = {
-    val keys = t.keys
-    keys.isEmpty || (keys.size == 1 && keys.head.isEmpty)
+  private def isEmpty(t: Option[Trie]): Boolean = {
+    t.isEmpty || (t.isDefined && t.get.children.forall(_.isEmpty))
   }
 
-  private def isEmpty(t: RadixTree[String, Boolean], prefix: Char): Boolean =
-    this.isEmpty(t)
-
-  private def withPrefix(t: RadixTree[String, Boolean], prefix: Char): RadixTree[String, Boolean] = {
-    t.subtreeWithPrefix(prefix.toString.toLowerCase).packed
+  private def withPrefix(t: Trie, prefix: Char): Option[Trie] = {
+    Try(t.withPrefix(prefix)).toOption
   }
 
-  private def processCurrent(matches: Seq[Match], t: RadixTree[String, Boolean], sb: StringBuffer,
-                             c: Char, i: Int): (Seq[Match], RadixTree[String, Boolean], StringBuffer) = {
-    sb.append(c)
-    val s = sb.toString.toLowerCase
+  private def processCurrent(matches: ListBuffer[Match], t: Trie,
+                             c: Char, i: Int): (ListBuffer[Match], Trie) = {
 
-    val subtrie = withPrefix(t, c).packed
+    val subtrie = withPrefix(t, c)
     (isTarget(t, c), isEmpty(subtrie)) match {
       case (true, true) => {
+        val s = t.withPrefix(c).prefix.toString()
         val m = Match(filename, i - s.length + 1, s)
         logger.info(s"Found match: $m")
-        (matches :+ m, trie, new StringBuffer)
+        matches.append(m)
+        (matches, trieRoot)
       }
       case (true, false) => {
+        val s = t.withPrefix(c).prefix.toString()
         val m = Match(filename, i - s.length + 1, s)
         logger.info(s"Found match: $m")
-        (matches :+ m, subtrie, sb)
+        matches.append(m)
+        (matches, subtrie.get)
       }
       case (false, true) => {
-        (matches, trie, new StringBuffer)
+        logger.trace("Did not find a match, but I do contain the next char")
+        (matches, trieRoot)
       }
       case _ => {
-        (matches, subtrie, sb)
+        logger.trace("Did not find a match and I do not contain the next char")
+
+        (matches, subtrie.get)
       }
     }
   }
 
   def findMatches: Seq[Match] = {
-    val (matches, _, _) = charAndIndex.foldLeft(Seq.empty[Match], trie, new StringBuffer) {
-      case ((acc, t, sb), (char, idx)) =>
-        processCurrent(acc, t, sb, char, idx)
+    val (matches, t) = charAndIndex.foldLeft(ListBuffer.empty[Match], trieRoot) {
+      case ((acc, t), (char, idx)) =>
+        logger.trace(s"Processing $char")
+        processCurrent(acc, t, char, idx)
     }
     logger.info(s"Finished processing $filename")
     matches
